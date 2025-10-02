@@ -14,7 +14,7 @@
             <li><router-link to="/webhook-testing">Webhooks</router-link></li>
           </ul>
           <div class="nav-actions">
-            <button class="start-now-btn" disabled style="opacity: 0.6; cursor: not-allowed;">Coming Soon</button>
+            <a href="https://www.storecove.com/us/en/start-now/" target="_blank" class="start-now-btn">Start now</a>
           </div>
           <input type="text" class="search-box" placeholder="Search documentation..." />
         </div>
