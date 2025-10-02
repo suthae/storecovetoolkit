@@ -14,8 +14,8 @@ export default defineConfig(({ command }) => {
     // Development mode - no base path
     config.base = '/'
   } else {
-    // Production mode - GitHub Pages base path
-    config.base = '/storecovetoolkit/'
+    // Production mode - GitHub Pages with relative paths
+    config.base = './'
   }
 
   return config
