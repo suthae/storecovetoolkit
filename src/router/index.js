@@ -6,6 +6,7 @@ import PlatformPlugins from '../views/PlatformPlugins.vue'
 import SDKLibraries from '../views/SDKLibraries.vue'
 import ImplementationGuide from '../views/ImplementationGuide.vue'
 import SampleCode from '../views/SampleCode.vue'
+import SandboxTesting from '../views/SandboxTesting.vue'
 import WebhookTesting from '../views/WebhookTesting.vue'
 import DeveloperDashboard from '../views/DeveloperDashboard.vue'
 import ErrorHandling from '../views/ErrorHandling.vue'
@@ -46,6 +47,11 @@ const routes = [
     path: '/sample-code',
     name: 'SampleCode',
     component: SampleCode
+  },
+  {
+    path: '/sandbox-testing',
+    name: 'SandboxTesting',
+    component: SandboxTesting
   },
   {
     path: '/webhook-testing',

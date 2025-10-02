@@ -111,14 +111,14 @@
         </div>
         
         <div class="card-grid">
-          <div class="card coming-soon-card">
+          <router-link to="/sandbox-testing" class="card">
             <div class="card-icon">🧪</div>
             <div class="card-content">
-              <span class="card-label coming-soon-label">Coming Soon</span>
+              <span class="card-label">Testing</span>
               <h3 class="card-title">Sandbox Environment</h3>
-              <p class="card-description">Test your e-invoicing integration in a safe sandbox environment before going live with real transactions</p>
+              <p class="card-description">Complete testing environment with sample data, validation tools, and webhook testing capabilities for safe integration development</p>
             </div>
-          </div>
+          </router-link>
 
           <div class="card coming-soon-card">
             <div class="card-icon">✅</div>
