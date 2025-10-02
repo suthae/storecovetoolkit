@@ -8,14 +8,13 @@
             <img src="https://www.storecove.com/typo3conf/ext/spt_package/Resources/Public/images/common/logo_prev.png" alt="Storecove" />
           </router-link>
           <ul class="nav-menu">
-            <li><a href="https://www.storecove.com/docs/" target="_blank">Docs</a></li>
-            <li><a href="https://www.storecove.com/us/en/solutions/" target="_blank">Solutions</a></li>
-            <li><a href="https://www.storecove.com/us/en/integrators/" target="_blank">Integrators</a></li>
-            <li><a href="https://www.storecove.com/us/en/mystorecove/" target="_blank">Resources</a></li>
-            <li><a href="https://www.storecove.com/us/en/contact/" target="_blank">Contact</a></li>
+            <li><router-link to="/integration-basics-faq">FAQ</router-link></li>
+            <li><router-link to="/implementation-guide">Guide</router-link></li>
+            <li><router-link to="/developer-dashboard">Dashboard</router-link></li>
+            <li><router-link to="/webhook-testing">Webhooks</router-link></li>
           </ul>
           <div class="nav-actions">
-            <a href="https://www.storecove.com/us/en/start-now/" target="_blank" class="start-now-btn">Start now</a>
+            <button class="start-now-btn" disabled style="opacity: 0.6; cursor: not-allowed;">Coming Soon</button>
           </div>
           <input type="text" class="search-box" placeholder="Search documentation..." />
         </div>
@@ -99,24 +98,6 @@
               <p class="card-description">Real-world examples and code snippets for common e-invoicing scenarios and use cases</p>
             </div>
           </router-link>
-
-          <a href="https://www.storecove.com/docs/" target="_blank" class="card">
-            <div class="card-icon">📚</div>
-            <div class="card-content">
-              <span class="card-label">Documentation</span>
-              <h3 class="card-title">API Documentation</h3>
-              <p class="card-description">Complete technical documentation with step-by-step guidance on implementing e-invoicing with Storecove</p>
-            </div>
-          </a>
-
-          <a href="https://www.storecove.com/us/en/solutions/" target="_blank" class="card">
-            <div class="card-icon">🌐</div>
-            <div class="card-content">
-              <span class="card-label">Networks</span>
-              <h3 class="card-title">Exchange Networks</h3>
-              <p class="card-description">Understanding Peppol, DBNAlliance, and other e-invoicing networks supported by Storecove</p>
-            </div>
-          </a>
         </div>
       </div>
     </section>
@@ -130,14 +111,14 @@
         </div>
         
         <div class="card-grid">
-          <a href="https://www.storecove.com/us/en/start-now/" target="_blank" class="card">
+          <div class="card coming-soon-card">
             <div class="card-icon">🧪</div>
             <div class="card-content">
-              <span class="card-label">Testing</span>
+              <span class="card-label coming-soon-label">Coming Soon</span>
               <h3 class="card-title">Sandbox Environment</h3>
-              <p class="card-description">Request sandbox access by filling the form. Our Account Manager will contact you to set up a 30-day trial account with login credentials</p>
+              <p class="card-description">Test your e-invoicing integration in a safe sandbox environment before going live with real transactions</p>
             </div>
-          </a>
+          </div>
 
           <div class="card coming-soon-card">
             <div class="card-icon">✅</div>
@@ -208,32 +189,32 @@
         </div>
         
         <div class="card-grid">
-          <a href="https://www.storecove.com/us/en/subscribe-newsletter/" target="_blank" class="card">
+          <div class="card coming-soon-card">
             <div class="card-icon">📧</div>
             <div class="card-content">
-              <span class="card-label">Newsletter</span>
+              <span class="card-label coming-soon-label">Coming Soon</span>
               <h3 class="card-title">Developer Updates</h3>
               <p class="card-description">Monthly newsletter with API updates, new features, and e-invoicing regulatory changes</p>
             </div>
-          </a>
+          </div>
 
-          <a href="https://www.storecove.com/us/en/mystorecove/" target="_blank" class="card">
+          <div class="card coming-soon-card">
             <div class="card-icon">🔄</div>
             <div class="card-content">
-              <span class="card-label">Updates</span>
+              <span class="card-label coming-soon-label">Coming Soon</span>
               <h3 class="card-title">Platform Updates</h3>
               <p class="card-description">Stay informed about new features, API improvements, and supported e-invoicing formats</p>
             </div>
-          </a>
+          </div>
 
-          <a href="https://www.storecove.com/blog/" target="_blank" class="card">
+          <div class="card coming-soon-card">
             <div class="card-icon">📰</div>
             <div class="card-content">
-              <span class="card-label">Blog</span>
+              <span class="card-label coming-soon-label">Coming Soon</span>
               <h3 class="card-title">Technical Blog</h3>
               <p class="card-description">Deep-dive articles on e-invoicing trends, compliance updates, and integration best practices</p>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
@@ -247,14 +228,14 @@
         </div>
         
         <div class="card-grid">
-          <a href="https://developers.storecove.com/" class="card" target="_blank">
+          <div class="card coming-soon-card">
             <div class="card-icon">🛠️</div>
             <div class="card-content">
-              <span class="card-label">External</span>
-              <h3 class="card-title">Storecove Developers</h3>
-              <p class="card-description">Access advanced integration examples, SDKs, webhooks documentation, and specialized tools for complex e-invoicing scenarios</p>
+              <span class="card-label coming-soon-label">Coming Soon</span>
+              <h3 class="card-title">Advanced Tools</h3>
+              <p class="card-description">Advanced integration examples, specialized tools, and complex e-invoicing scenarios documentation</p>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
@@ -297,7 +278,6 @@
           <div class="footer-section">
             <h3>Resources</h3>
             <ul class="footer-links">
-              <li><a href="https://www.storecove.com/docs/" target="_blank">API Documentation</a></li>
               <li><a href="https://www.storecove.com/blog/" target="_blank">Blog</a></li>
               <li><a href="https://www.storecove.com/us/en/webinars/" target="_blank">Webinars</a></li>
               <li><a href="https://www.storecove.com/us/en/whitepapers/" target="_blank">White Papers</a></li>
